@@ -36,7 +36,7 @@ console.log(consume("Mary", "Poppins", greeting)); // Hello Mary Poppins, nice t
 
 // Explain in your own words why nestedfunction can access the variable internal.
 
-// Explanation: 
+// Explanation: inheritance/closure allows access to variables and methods from parent to chilc.
 
 
 const external = "I'm outside the function";
