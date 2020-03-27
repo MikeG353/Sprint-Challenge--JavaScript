@@ -29,23 +29,27 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your team lead
 
 1. Describe the biggest difference between `.forEach` & `.map`.
-
+    map returns an new array, while forEach iterates over each item.
 2. What is the difference between a function and a method?
-
+    methods is a function that belongs to an object or class.
 3. What is closure?
-
+    ingeritance can only pass from parent to child.
 4. Describe the four rules of the 'this' keyword.
-
+    Window - if no rules apply, .this defaults to window. If in strict mode, return undefined.
+    Implicit - most common. the object to the left of the '.' in the line that invokes the function is what this refers to.
+    Explicit - .call, .bind, .apply - this refers to the object within the perenthesis.
+    New- using the new keyword, you can make a new object. "this" refers to the new object.
 5. Why do we need super() in an extended class?
+    extends only creates a child, super informs the class where to inherit from.
 
 ## Project Set up
 
 Follow these steps to set up and work on your project:
 
-- [ ] Create a forked copy of this project.
-- [ ] Add TL as collaborator on Github.
-- [ ] Clone your OWN version of Repo (Not Lambda's by mistake!).
-- [ ] Create a new Branch on the clone: git checkout -b `<firstName-lastName>`.
+- [x] Create a forked copy of this project.
+- [x] Add TL as collaborator on Github.
+- [x] Clone your OWN version of Repo (Not Lambda's by mistake!).
+- [x] Create a new Branch on the clone: git checkout -b `<firstName-lastName>`.
 - [ ] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
 - [ ] You are now ready to build this project with your preferred IDE
 - [ ] Implement the project on your Branch, committing changes regularly.
